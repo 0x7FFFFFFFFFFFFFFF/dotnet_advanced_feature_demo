@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "ExtensionMethod\ExtensionMethod.csproj", "{BB24F7B1-7004-4B20-8F2D-38A1DD240211}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibleWinFormApp", "ResponsibleWinFormApp\ResponsibleWinFormApp.csproj", "{CD52E30A-523F-46AB-9E84-0E8C65D26558}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BB24F7B1-7004-4B20-8F2D-38A1DD240211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB24F7B1-7004-4B20-8F2D-38A1DD240211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB24F7B1-7004-4B20-8F2D-38A1DD240211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD52E30A-523F-46AB-9E84-0E8C65D26558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD52E30A-523F-46AB-9E84-0E8C65D26558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD52E30A-523F-46AB-9E84-0E8C65D26558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD52E30A-523F-46AB-9E84-0E8C65D26558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -19,11 +20,19 @@ namespace ResponsibleWinFormApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            SlowTask();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        public void SlowTask()
+        {
+            result.Text = "Start the slow task.";
+            Thread.Sleep(8000);
+            result.Text = result.Text + Environment.NewLine + "Slow task down.";
 
         }
     }
