@@ -23,9 +23,9 @@ namespace ResponsibleWinFormApp
             SlowTask();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private async void button2_ClickAsync(object sender, EventArgs e)
         {
-
+            await Task.Run(() => SlowTask2());
         }
 
         public void SlowTask()
@@ -33,7 +33,13 @@ namespace ResponsibleWinFormApp
             result.Text = "Start the slow task.";
             Thread.Sleep(8000);
             result.Text = result.Text + Environment.NewLine + "Slow task down.";
+        }
 
+        public void SlowTask2()
+        {
+            result.Text = "Start the slow task.";
+            Thread.Sleep(8000);
+            result.Text = result.Text + Environment.NewLine + "Slow task down.";
         }
     }
 }
